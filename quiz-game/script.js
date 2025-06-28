@@ -80,7 +80,8 @@ restartButton.addEventListener("click", restartQuiz)
 
 function startQuiz(){
     currentQuestionIndex = 0;
-    scoreSpan.textContent = 0;
+    score = 0;
+    scoreSpan.textContent = score;
     startScreen.classList.remove("active")
     quizScreen.classList.add("active")
 
